@@ -9,4 +9,4 @@ I use Azure cloud services. Data is saved in Azure Cosmos db and visualized with
 Components:
 
 
-![images (1)](https://user-images.githubusercontent.com/71280566/163165892-fb6d1ac5-9e0c-4480-a081-ca1d5c0bc943.jpg)
+![images (1)](https://user-images.githubusercontent.com/71280566/163165892-fb6d1ac5-9e0c-4480-a081-ca1d5c0bc943.jpg)  Bme280
