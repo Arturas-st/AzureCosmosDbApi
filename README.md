@@ -18,3 +18,18 @@ Components:
 
 
 ![41015979](https://user-images.githubusercontent.com/71280566/163166335-e1d63906-78bf-4e88-ab65-2e7d22585c75.jpg) ESP32 Adafruit Feather 
+
+
+
+
+The Bme280 module has a simple two-wire I2C interface that connects to the ESP32 microcontroller. Sensor measures humidity / temp and barometric pressure. Maximum temperature + 85C, Lowest temperature -40C.
+Dht11 contains a chip that makes analog to digital conversion and spits out a digital signal with temperature and humidity that is also connected to ESP32. Maximum temperature + 50C, Lowest temperature 0C.
+
+
+Chart I have implemented:
+
+
+
+![2](https://user-images.githubusercontent.com/71280566/163168649-eed4f32b-6835-4103-ad68-73645e05319e.PNG)
+
+
