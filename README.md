@@ -10,7 +10,8 @@ Components:
 
 
  
-![_s_e_sen-10-054-1](https://user-images.githubusercontent.com/71280566/163166799-40486678-a737-4a0c-ac2e-58f0f68082bc.jpg)
+![bmp280-50v-digital-barometric-pressure-altitude-sensor-i2cspi](https://user-images.githubusercontent.com/71280566/163167546-49b3b61d-047d-499d-aa34-c8a3e4ffe507.jpg)Bme280
+
 
 
 ![41015728-1](https://user-images.githubusercontent.com/71280566/163166280-6def7d31-2126-42b8-89b2-fe7727a09472.jpg) Dht11
