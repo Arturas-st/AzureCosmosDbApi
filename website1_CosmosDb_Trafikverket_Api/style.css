@@ -1,0 +1,76 @@
+body{
+    background: floralwhite;
+}
+
+img, svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleTemp{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.holderTemp{
+    display: flex;
+}
+
+.contentTemp1{
+    display: inline-block;
+    text-align: center;
+    margin-left:auto;
+    margin-right: 7%;
+}
+
+.contentTemp2{
+    display: inline-block;
+    text-align: center;
+    margin-left:7%;
+    margin-right: auto;
+}
+
+#temp1{
+    font-size: 450%;
+}
+
+#date1{
+    font-size: 150%;
+    display: block;
+}
+
+#time1{
+    font-size: 150%;
+    display: block;
+}
+
+#location1{
+    font-size: 225%;
+}
+
+#temp2{
+    font-size: 450%;
+}
+#date2{
+    font-size: 150%;
+    display: block;
+}
+
+#time2{
+    font-size: 150%;
+    display: block;
+}
+
+#location2{
+    font-size: 225%;
+}
+
+.celcius{
+    font-size: 350%;
+}
+
+p{
+    display: inline;
+}
