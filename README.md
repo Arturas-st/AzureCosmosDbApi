@@ -29,7 +29,24 @@ Dht11 contains a chip that makes analog to digital conversion and spits out a di
 Chart I have implemented:
 
 
-
 ![2](https://user-images.githubusercontent.com/71280566/163168649-eed4f32b-6835-4103-ad68-73645e05319e.PNG)
 
+Here I send sensor data over mqtt to Azure Iot hub. The data is sorted using "Message routing". Dht11 sensor data is routed to "Blob Storage", bme280 is routed to "Cosmos DB" using "Function Apps". The data from external source is also sent using "Function Apps" to "Cosmos DB". All data from "Cosmos DB" is visualized with "Power Bi".
 
+Diagrams not implemented:
+
+
+![1](https://user-images.githubusercontent.com/71280566/163169028-618eb0ca-6025-4222-b59a-95b34808d235.PNG)
+
+Here I have added "Machine learning" and "Stream Analytics Jobs" to be able to more easily see when there is a deviating moisture value indoors.
+But I decided not to implement it because the "Stream Analytics Jobs" service is not free.
+
+
+Power Bi:
+
+
+
+![3](https://user-images.githubusercontent.com/71280566/163169367-b2ed9946-7e59-4c7e-83c7-f8225e2b40ef.PNG)
+
+Here I visualize all data from "Cosmos db" with Power bi.
+Temperature and humidity from external source are stable for some time. Large temperature and humidity changes indoors are because I heated the sensor manually to be able to see if it works.
