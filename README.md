@@ -26,14 +26,14 @@ The Bme280 module has a simple two-wire I2C interface that connects to the ESP32
 Dht11 contains a chip that makes analog to digital conversion and spits out a digital signal with temperature and humidity that is also connected to ESP32. Maximum temperature + 50C, Lowest temperature 0C.
 
 
-Chart I have implemented:
+Diagram I have implemented:
 
 
 ![2](https://user-images.githubusercontent.com/71280566/163168649-eed4f32b-6835-4103-ad68-73645e05319e.PNG)
 
 Here I send sensor data over mqtt to Azure Iot hub. The data is sorted using "Message routing". Dht11 sensor data is routed to "Blob Storage", bme280 is routed to "Cosmos DB" using "Function Apps". The data from external source is also sent using "Function Apps" to "Cosmos DB". All data from "Cosmos DB" is visualized with "Power Bi".
 
-Diagrams not implemented:
+Not implemented diagram:
 
 
 ![1](https://user-images.githubusercontent.com/71280566/163169028-618eb0ca-6025-4222-b59a-95b34808d235.PNG)
