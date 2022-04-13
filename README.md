@@ -10,3 +10,9 @@ Components:
 
 
 ![images (1)](https://user-images.githubusercontent.com/71280566/163165892-fb6d1ac5-9e0c-4480-a081-ca1d5c0bc943.jpg)  Bme280
+
+
+![41015728-1](https://user-images.githubusercontent.com/71280566/163166280-6def7d31-2126-42b8-89b2-fe7727a09472.jpg) Dht11
+
+
+![41015979](https://user-images.githubusercontent.com/71280566/163166335-e1d63906-78bf-4e88-ab65-2e7d22585c75.jpg) ESP32 Adafruit Feather 
